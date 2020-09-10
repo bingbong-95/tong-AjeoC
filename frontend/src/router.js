@@ -1,18 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router';
-import DashboardLayout from 'src/layout/DashboardLayout.vue';
-Vue.use(RoVueRouteruter)
+import DashboardLayout from './layout/DashboardLayout.vue';
+Vue.use(VueRouter)
 
 let routes = [{
-        path: '/',
-        redirect: '/main',
-    },
-    {
-        path: '/main1',
-        name: 'main1',
-        component: DashboardLayout,
-    },
-]
+    path: '/',
+    name: 'main1',
+    component: DashboardLayout,
+}, ]
 const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,

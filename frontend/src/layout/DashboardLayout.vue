@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import TopNavbar from './views/TopNavbar.vue'
-  import Overview from './views/Overview.vue'
+  import TopNavbar from '../views/TopNavbar.vue'
+  import Overview from '../views/Overview.vue'
   export default {
     components: {
       TopNavbar,
