@@ -18,8 +18,8 @@
         placeholder="Choose a file..."
         no-drop="true"
         accept=".csv"/>
-        <div v-if="file!=null" style="margin-left:435px; margin-top: 5px;">
-          <b-button size="sm" variant="light" class="custombtn">가져오기</b-button>
+        <div v-if="file!=null"  style="margin-left:435px; margin-top: 5px;">
+          <b-button size="sm" variant="white" class="custombtn">가져오기</b-button>
         </div>
       </div>
     </div>
@@ -55,15 +55,16 @@
 
   .custombtn {
     color: #BDBDBD!important;
-    border: 0;
-    outline: 0;
-    background: none;
+    padding: 0;
+    background-color: white!important; 
+    border-color: white!important;
+    padding: 0px;
   }
-  
-  .coustombtn:hover {
-    color: blue!important;
+
+  .custombtn:focus {
+    outline: none;
   }
-  
+
   .leftmain {
     float:left;
     width: 600px;
